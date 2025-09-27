@@ -1,5 +1,3 @@
-# I JUST LOVE THIS PROGRAM!
-
 from random import choice
 
 while True:
@@ -13,7 +11,7 @@ heads = 0
 tails = 0
 
 header = f"{'Round':^10} | {'Head':^10} | {'Tail':^10}"
-border = "-" * len(header)  # auto-matches header width
+border = "-" * len(header)
 
 print(border)
 print(header)
@@ -29,3 +27,4 @@ for cround in range(coin_rounds):
 print(border)
 
 print(f"Rounds: {cround+1} | Heads: {heads} | Tails: {tails}\n")
+
